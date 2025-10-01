@@ -26,4 +26,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Validar Build Expo
-        run: npx expo prebuild --no-install
+        run: npx expo prebuild --no-install --platform android
